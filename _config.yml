@@ -10,7 +10,7 @@ title: Your awesome title
 email: sebastianmujica@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   centro de comando para todas esas cosas locas que se me ocurren..
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
