@@ -296,7 +296,8 @@ header {
     text-align: right;
 }
 header h1 {
-    background: transparent url("zen.jpg") no-repeat scroll right top;
+    background: transparent url("zen.svg") no-repeat scroll right top;
+    background-size: 565px 216px;
     height: 216px;
     margin: 0;
     overflow: hidden;
