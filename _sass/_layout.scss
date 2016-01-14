@@ -168,7 +168,9 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+//    padding: $spacing-unit 0;
+   	clear: right; 
+	padding: 0px 10px 0 10px;
 }
 
 .page-heading {
@@ -239,4 +241,279 @@
             font-size: 18px;
         }
     }
+}
+
+body {
+    background: #000 none repeat scroll 0 0;
+    color: #000;
+    font-family: geneva,arial,helvetica,sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: #e5a250;
+    text-decoration: none;
+}
+a:visited {
+    color: #b2906d;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #99d0dd;
+    text-decoration: none;
+}
+abbr {
+    cursor: help;
+}
+a abbr {
+    cursor: help;
+}
+p {
+    font-size: 80%;
+}
+.page-wrapper {
+    background: #fff url("fond.jpg") repeat-y scroll left top;
+    border: 0 none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 800px;
+}
+html > body .page-wrapper {
+    width: 800px;
+}
+header {
+    margin-bottom: 5px;
+    text-align: right;
+}
+header h1 {
+    background: transparent url("zen.jpg") no-repeat scroll right top;
+    height: 216px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 800px;
+}
+header h2 {
+    display: none;
+}
+.summary {
+    background: transparent none repeat scroll 0 0;
+    color: #fff;
+    margin: 20px 80px 40px 295px;
+    text-align: center;
+}
+.summary a, .summary a:visited {
+    color: #99d0dd;
+}
+.summary a:hover, .summary a:active {
+    color: #e5a250;
+}
+.preamble {
+    background: #fff url("fond1.jpg") repeat-y scroll 0 0;
+    margin: 0 29px 0 235px;
+    padding: 0 0 30px;
+    width: 536px;
+}
+.explanation, .benefits, .requirements, .participation {
+    border: 0 none;
+    margin: 0 29px 0 235px;
+    padding: 0;
+    width: 536px;
+}
+.explanation {
+    background: #fff url("fond2.jpg") repeat-y scroll left top;
+}
+.participation {
+    background: #fff url("fond3.jpg") repeat-y scroll left top;
+}
+.benefits {
+    background: #fff url("fond4.jpg") repeat-y scroll left top;
+    padding-bottom: 40px;
+}
+.requirements {
+    background: #fff url("fond5.jpg") repeat-y scroll left top;
+    padding-bottom: 20px;
+}
+.explanation p, .participation p, .benefits p, .requirements p, .preamble p {
+    text-align: justify;
+}
+.preamble p, .participation p, .requirements p {
+    margin: 5px 120px 0 20px;
+}
+.explanation p, .benefits p {
+    margin: 5px 20px 0 120px;
+}
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    border: 0 none;
+    margin: 0;
+    width: 536px;
+}
+.supporting h3, .preamble h3 {
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+.preamble h3 {
+    background: rgba(0, 0, 0, 0) url("road.jpg") no-repeat scroll left top;
+    height: 106px;
+}
+.explanation h3 {
+    background: rgba(0, 0, 0, 0) url("about.jpg") no-repeat scroll left top;
+    height: 168px;
+}
+.participation h3 {
+    background: rgba(0, 0, 0, 0) url("particip.jpg") no-repeat scroll left top;
+    height: 154px;
+    width: 565px;
+}
+.benefits h3 {
+    background: rgba(0, 0, 0, 0) url("benef.jpg") no-repeat scroll left top;
+    height: 171px;
+}
+.requirements h3 {
+    background: rgba(0, 0, 0, 0) url("req.jpg") no-repeat scroll left top;
+    height: 125px;
+}
+footer {
+    background: transparent url("fin.jpg") no-repeat scroll left top;
+    color: #fff;
+    height: 223px;
+    margin: 0 29px 0 235px;
+    padding: 0;
+    text-decoration: underline;
+    width: 536px;
+}
+footer a {
+    color: #99d0dd;
+    left: 40px;
+    padding: 0;
+    position: relative;
+    top: 120px;
+}
+footer a:hover, footer a:active {
+    color: #e5a250;
+    text-decoration: none;
+}
+.extra1 {
+    background: #b2906d url("bas.jpg") no-repeat scroll left top;
+    height: 119px;
+    margin: 0 auto 30px;
+    text-align: left;
+    width: 800px;
+}
+.sidebar {
+    background: rgba(0, 0, 0, 0) url("chat.jpg") no-repeat scroll left top;
+    color: #e5a250;
+    font-size: 80%;
+    left: 0;
+    margin: 0;
+    padding: 150px 0 0;
+    position: absolute;
+    top: 0;
+    width: 215px;
+}
+.sidebar h3 {
+    height: 76px;
+    margin: 40px 0 20px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 185px;
+}
+.sidebar h3.select {
+    background: transparent url("select.jpg") no-repeat scroll left top;
+}
+.sidebar h3.archives {
+    background: transparent url("archiv.jpg") no-repeat scroll left top;
+}
+.sidebar h3.resources {
+    background: transparent url("resou.jpg") no-repeat scroll left top;
+}
+.sidebar ul {
+    background: #000 none repeat scroll 0 0;
+    border: 2px solid #b2906d;
+    margin: 0 30px 0 20px;
+    padding: 7px 2px 5px;
+}
+.sidebar li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar a {
+    color: #e5a250;
+    font-size: small;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: #99d0dd;
+}
+.design-selection li {
+    margin: 0 0 10px;
+}
+.design-selection li a {
+    display: block;
+}
+.design-selection li a.designer-name {
+    display: inline;
+}
+.design-selection a {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    color: #b2906d;
+    margin: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.design-selection a:hover {
+    background: rgba(0, 0, 0, 0) url("puce.jpg") no-repeat scroll 0 -3px;
+    color: #99d0dd;
+}
+.design-selection a:visited {
+    color: #964;
+}
+.design-selection a.designer-name {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    color: #e5a250;
+    margin: 0;
+    padding-left: 10px;
+    text-transform: none;
+}
+.design-selection a.designer-name:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #99d0dd;
+}
+.design-archives li, .zen-resources li {
+    margin: 0 0 15px;
+}
+.design-archives a, .design-archives a:visited {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+.design-archives a:hover {
+    background: rgba(0, 0, 0, 0) url("puceherbe.jpg") no-repeat scroll 0 4px;
+}
+.zen-resources a, .zen-resources a:visited {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    padding: 5px 0 5px 20px;
+}
+.zen-resources a:hover {
+    background: rgba(0, 0, 0, 0) url("puceparenth.jpg") no-repeat scroll left center;
 }
